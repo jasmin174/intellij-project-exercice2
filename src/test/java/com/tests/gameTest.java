@@ -24,4 +24,9 @@ public class gameTest {
         personnage personnage = new personnage();
         assertEquals("OUEST", personnage.Tourner(3));
     }
+    @Test
+    public void testTourner4() {
+        personnage personnage = new personnage();
+        assertEquals("NORD", personnage.Tourner(4));
+    }
 }
