@@ -1,7 +1,11 @@
 package com.methods;
 
 public class personnage {
+    private String orientation ="NORD";
 public String Tourner(int fois){
-    return null;
+        if(fois==0){
+                return orientation;}
+    return "NORD";
+
     }
 }
